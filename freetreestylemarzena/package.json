@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "concurrently": "^4.1.2",
     "express": "^4.17.1",
     "http-proxy-middleware": "^0.19.1",
@@ -11,7 +12,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "reactstrap": "^8.0.1"
   },
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"nodemon index\"",
