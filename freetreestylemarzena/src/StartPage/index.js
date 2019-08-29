@@ -10,7 +10,7 @@ class StartPage extends Component {
 
     render (){
         return(
-            
+          <p>Hello world</p>
         )
     }
 }
