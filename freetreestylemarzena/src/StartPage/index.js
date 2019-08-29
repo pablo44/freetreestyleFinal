@@ -15,16 +15,16 @@ class StartPage extends Component {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 export default StartPage;
+
+
+
+
+
+
+
+
+
+
+
+
