@@ -17,7 +17,7 @@ export default function() {
                 <Navbar />
                 <main>
                     <Switch>
-                        <Route path="/startpage" component={StartPage} />
+                        <Route exact path="/" component={StartPage} />
                         <Route path="/gallery" component={Gallery} />
                         <Route path="/cooperators" component={Cooperators} />
                         <Route path="/orderfurniture" component={OrderFurniture} />
