@@ -1,10 +1,19 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Card from "../Card/index";
 
 class Gallery extends Component {
-    render () {
+    render() {
         return (
-            <p>harry don't f with me</p>
+            <div>
+                <Card
+                CardImg=""
+                CardTitle=""
+                CardSubtitle=""
+                CardText=""
+            />
+            </div>
+
         )
 
     }
