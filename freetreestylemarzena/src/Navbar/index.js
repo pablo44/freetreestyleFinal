@@ -30,9 +30,9 @@ class NavbarApp extends Component {
     }
     render() {
         return (
-            <div>
+            <header>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">FreeTreeStyle</NavbarBrand>
+                    <NavbarBrand href="/"><img src={require("./logomarsena.png")} alt="logomarseny"/></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -62,7 +62,7 @@ class NavbarApp extends Component {
                         </Nav>
                     </Collapse>
                 </Navbar>
-            </div>
+            </header>
         );
     }
 }
