@@ -10,7 +10,7 @@ class StartPage extends Component {
 
     render (){
         return(
-          <p>Hello world</p>
+          <div><img src={require('./Zinc.jpeg')} style={{width:null, height:null, flex:1, resize:'cover'}}/></div>
         )
     }
 }
