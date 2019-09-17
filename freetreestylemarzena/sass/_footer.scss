@@ -1,28 +1,43 @@
-footer {
-    color: rgb(0, 0, 0);
-    border-top: 3px solid rgb(6, 26, 22);
-    background: #0B0C10;
-  }
-  
-  .footer-copy{
-    color:#fff;
-  }
-  .social-icons{
-    color: #85FFC7;
-    font-size: 32px;
-    padding: 1rem;
+.footer {
+    position: relative;
+    background-color:#f8f9fa;
+    text-align: center;
+    padding-top:20px;        
+    padding-bottom:20px; 
     
-    .fab:hover{
-      color: #85FFC7;
-      transform: scale(1.1);
-     }
-     .fab{
-      padding: 0.5rem;
-      transition: 0.8s;
-      border: solid 3px #297373;
-      background: #297373;
-      border-radius: 50%;
-      cursor: pointer;
-      transition: all .2s ease-in-out;  
+    z-index: 100;
+  
+    .social-icons{
+        color:black;
+        font-size:70px;
+    }
+    
+    .icon {
+        padding: 5px;
+    }
+    
+    img, .logo-text {
+        display: inline-block;
+        color:black;
+    }
+    
+    
+    img {
+        width: 8vh;
+        height: 8vh;
+        vertical-align: bottom;
+    }
+    
+    .footer-text, p {
+        margin-top: 15px;
+        color:black;
+        font-style: Montserrat;
+        line-height: 15px;
+    }
+    
+    .logo-text {
+        font-size: 45px;
+        font-family: 'AR CHRISTY' /*Sonsie One'*/;
+        
     }
   }

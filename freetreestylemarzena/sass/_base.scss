@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.bg-image {
+    position: absolute;
+    z-index: 1;
+    background: url('../../../src/StartPage/polyback.jpg') center / cover fixed no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.mainpage {
+  position: relative;
+  z-index: 2;
+}
+body {
+    box-sizing: border-box;
+}

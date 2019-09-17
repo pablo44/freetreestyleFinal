@@ -3,15 +3,15 @@ import { withRouter } from "react-router-dom";
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 
-const CardTemplate = (props) => {
+function  CardTemplate (props) {
   return (
     <div>
       <Card>
         <CardImg src={props.imgUrl} />
         <CardBody>
-          <CardTitle CardTitle= {props.text}/>
-          <CardSubtitle subtitle={props.CardSubtitle}/>
-          <CardText CardText={props.CardText}/>
+          <CardTitle cardtitle= {props.text}/>
+          <CardSubtitle subtitle={props.cardsubtitle}/>
+          <CardText cardtext={props.cardtext}/>
           <Button>Button</Button>
         </CardBody>
       </Card>

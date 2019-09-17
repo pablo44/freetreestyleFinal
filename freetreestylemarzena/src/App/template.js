@@ -10,7 +10,7 @@ import ShoppingCart from '../ShoppingCart/index';
 import Footer from '../Footer/index';
 import MissingPage from '../MissingPage';
 
-export default function() {
+ function Template () {
     return (
         <Router>
             <div className="App body">
@@ -31,4 +31,5 @@ export default function() {
 
         </Router>
     );
-};
+}
+export default Template;

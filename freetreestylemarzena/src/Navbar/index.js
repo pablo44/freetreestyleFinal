@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+
 import { withRouter, NavLink } from "react-router-dom";
 import {
     Collapse,
@@ -13,6 +13,8 @@ import {
     DropdownMenu,
     DropdownItem
 } from "reactstrap";
+import Cooperators from "../Cooperators";
+
 
 class NavbarApp extends Component {
     constructor(props) {
@@ -32,7 +34,7 @@ class NavbarApp extends Component {
         return (
             <header>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/"><img src={require("./logomarsena.png")} alt="logomarseny"/></NavbarBrand>
+                    <NavbarBrand href="/"><img src={require("../images/logomarsena.png")} alt="logomarseny"/></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -48,7 +50,7 @@ class NavbarApp extends Component {
                     </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Marzena
+                                        <Cooperators />
                       </DropdownItem>
                                     <DropdownItem>
                                         Paul

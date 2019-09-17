@@ -1,0 +1,18 @@
+.App, .body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+        flex: 1 ;
+    }
+
+    
+}
+html, body, #root, .App {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
