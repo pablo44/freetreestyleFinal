@@ -8,6 +8,7 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 function StartPage() {
@@ -22,32 +23,38 @@ function StartPage() {
                     <Col>
                         <aside className="filter-aside">
                             <h3 className="mb-3 mt-4">Choose a furniture</h3>
-                            <p>1pic</p>
+                            <Link to="/furniture1"><img src={require('../images/button1.png')}/></Link>
                             <br />
-                            <p>2pic</p>
                             <br />
-                            <p>3pic</p>
+                            <Link to="/furniture2"><img src={require('../images/button2.png')}/></Link>
+                            <br />
+                            <br />
+                            <Link to="/furniture3"><img src={require('../images/button3.png')}/></Link>
+                            <br />
                         </aside>
                     </Col>
                     <Col >
                         <Row className="mb-4">
-                            <Row >
+                            <Row  >
                                 <Col>
 
-                                    <p >Mitt äventyr med formgivning började tillsamans med min familji liv.
-                                      När jag funderade på vilka saker som behövs hemma då plotsligt insåg jag att
-                                      det kan jag själv göra samt renovera många av de. Och när jag tåg det första
-                                      steget blev jag förälskad och kunde känna mig fri! Efter då kom trä som materialet,
-                                      första renoverings objekter var ganska enkla, decoupage var den viktigt del av
-                                        hela processen.</p>
+                                    <p>My design adventure began together with my family's life.
+                                        I begun thinking about what things we need in our household
+                                        and suddenly I realized that I can do many tings on my own.
+                                        I took the first step, I fell in love in woodworking, first
+                                        I always remember that smell of wood in my ouncle's workshop.
+                                        First renovation objects were quite simple, decoupage
+                                        was the important part of the whole introductory process.</p>
                                 </Col>
 
-                                <Col >
-                                    <p> Samtidigt med finsnickeri utvecklade jag mina kunskaper inom inrednig design öven smycken.
-                                        Till sist började jag den viktigasta delen av min väg , en utbildning inom finsnickeri
-                                        och formgivning. Under tiden kunde jag laborera med olika tekniker s.som.: epoxy,
-                                        båt lack och betsa. Efter 2,5 år kunde jag uveckla mina drömer och nu får jag vidare
-                                        förverkliga mina ideer. </p>
+                                <Col>
+                                    <p> Together with fine carpentry, I developed my interior design
+                                        skills,Finally, I began the most important part of my journey,
+                                        an education in fine carpentry and design. In the meantime,
+                                        I could experiment with different techniques such as epoxy, and
+                                        finaly after two and a halv years carpentry education I was able
+                                        to begin realise my dreams!
+                                         </p>
                                 </Col>
                             </Row>
                         </Row>
@@ -59,61 +66,58 @@ function StartPage() {
 
                 </Row>
 
-                <Row className="mb-4">
+                <Row className="mb-4 cards">
                     <Row >
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/tvbank_but.png')} alt="CardTvBank" />
-                                <CardBody>
+                                <CardImg top width="100%" src={require('../images/leaf.jpg')} alt="CardTvBank" />
+                                <CardBody className = "bg-transparent card text-center">
                                     <CardTitle>Inspiration</CardTitle>
                                     <CardSubtitle>Our Ideas</CardSubtitle>
-                                    <CardText>As a team we strive for
-                                        <br />
-                                        better design from the very beginig
+                                    <CardText>
+                                        
                                     </CardText>
-                                    <Button>Button</Button>
+                                    <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
                         </Col>
 
                         <Col >
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/BarIkon.png')} alt="Card image cap" />
-                                <CardBody>
+                                <CardImg top width="100%" src={require('../images/technology.jpg')} alt="Card image cap" />
+                                <CardBody className = "bg-transparent card text-center">
                                     <CardTitle>Technology</CardTitle>
-                                    <CardSubtitle>Workshop</CardSubtitle>
-                                    <CardText>As a team we strive for <br />
-                                       
-                                        better design from the very beginig
+                                    <CardSubtitle>Workshop and team</CardSubtitle>
+                                    <CardText> 
                                     </CardText>
-                                    <Button>Button</Button>
+                                    <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
                         </Col>
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/Card1tvbank.png')} alt="Card image cap" />
-                                <CardBody>
-                                    <CardTitle>'Our policy</CardTitle>
-                                    <CardSubtitle>we do</CardSubtitle>
-                                    <CardText>know how
+                                <CardImg top width="100%" src={require('../images/mebel6.png')} alt="Card image cap" />
+                                <CardBody className = "bg-transparent card text-center">
+                                    <CardTitle>Our policy</CardTitle>
+                                    <CardSubtitle>know how</CardSubtitle>
+                                    <CardText>
                                         </CardText>
-                                    <Button>Button</Button>
+                                    <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
                         </Col>
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/cheesXs.png')} alt="Card image cap" />
-                                <CardBody>
-                                    <CardTitle>Order</CardTitle>
-                                    <CardSubtitle>Unique</CardSubtitle>
-                                    <CardText>some design that makes...mh
+                                <CardImg top width="100%" src={require('../images/crowd.jpg')} alt="Card image cap" />
+                                <CardBody className = "bg-transparent card text-center">
+                                    <CardTitle>Customers</CardTitle>
+                                    <CardSubtitle>design and order</CardSubtitle>
+                                    <CardText>
                                         </CardText>
-                                    <Button>Button</Button>
+                                    <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
                         </Col>

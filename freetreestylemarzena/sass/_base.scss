@@ -10,13 +10,45 @@
     position: absolute;
     z-index: 1;
     background: url('../../../src/StartPage/polyback.jpg') center / cover fixed no-repeat;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
 }
 .mainpage {
   position: relative;
   z-index: 2;
 }
+.resummy {
+  width: 50vh;
+  
+}
+aside {
+  font-family: 'AR CHRISTY';
+  padding-left: 2vh;
+}
+ h3 {
+  font-size: 25px;
+}
+ p {
+padding-right: 8vh;
+
+}
+.cards{
+  justify-content: center;
+}
+// .CardBody  {
+//   position: absolute;
+//   justify-content: center;
+//   text-align:center;
+// }
+.btn{
+  font-family: 'AR CHRISTY';
+  font-size: 20px;
+  
+
+}
 body {
     box-sizing: border-box;
+    font-size: 18px;
+    text-align: justify;
+    
 }

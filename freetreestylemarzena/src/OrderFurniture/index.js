@@ -37,69 +37,59 @@ class OrderFurniture extends Component {
       <Form>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Input type="email" name="email" id="exampleEmail" placeholder="your e-mail" />
         </FormGroup>
         <FormGroup>
           <Label for="examplePassword">Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+          <Input type="password" name="password" id="examplePassword" placeholder="password" />
         </FormGroup>
         <FormGroup>
-          <Label for="exampleSelect">Select</Label>
+          <Label for="exampleSelect">Select Color</Label>
           <Input type="select" name="select" id="exampleSelect">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            <option>brown</option>
+            <option>white</option>
+            <option>natural wood</option>
+            
           </Input>
         </FormGroup>
         <FormGroup>
-          <Label for="exampleSelectMulti">Select Multiple</Label>
+          <Label for="exampleSelectMulti">Select dimention</Label>
           <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            <option>1 standard</option>
+            <option>2 customised</option>
+           
           </Input>
         </FormGroup>
         <FormGroup>
-          <Label for="exampleText">Text Area</Label>
+          <Label for="exampleText">Write your description</Label>
           <Input type="textarea" name="text" id="exampleText" />
         </FormGroup>
-        <FormGroup>
-          <Label for="exampleFile">File</Label>
-          <Input type="file" name="file" id="exampleFile" />
-          <FormText color="muted">
-            This is some placeholder block-level help text for the above input.
-            It's a bit lighter and easily wraps to a new line.
-          </FormText>
-        </FormGroup>
+        
         <FormGroup tag="fieldset">
-          <legend>Radio Buttons</legend>
+          <legend>Wood Materials</legend>
           <FormGroup check>
             <Label check>
               <Input type="radio" name="radio1" />{' '}
-              Option one is this and that—be sure to include why it's great
+              Oak
             </Label>
           </FormGroup>
           <FormGroup check>
             <Label check>
               <Input type="radio" name="radio1" />{' '}
-              Option two can be something else and selecting it will deselect option one
+              Walnut
             </Label>
           </FormGroup>
           <FormGroup check disabled>
             <Label check>
               <Input type="radio" name="radio1" disabled />{' '}
-              Option three is disabled
+              Pine
             </Label>
           </FormGroup>
         </FormGroup>
         <FormGroup check>
           <Label check>
             <Input type="checkbox" />{' '}
-            Check me out
+            ready!
           </Label>
         </FormGroup>
         <Button>Submit</Button>

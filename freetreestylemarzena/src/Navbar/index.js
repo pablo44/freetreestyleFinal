@@ -50,7 +50,7 @@ class NavbarApp extends Component {
                     </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        <Cooperators />
+                                        Marzena
                       </DropdownItem>
                                     <DropdownItem>
                                         Paul

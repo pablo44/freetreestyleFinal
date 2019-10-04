@@ -5,7 +5,7 @@ class Coopoerators extends Component {
         console.log("hej dupo");
         return (
             <section> <div>
-            <img src={require("../images/logomarsena.png")} alt="logomarseny"/>
+            
             <p>Marzena</p>
 </div>
 <div>
