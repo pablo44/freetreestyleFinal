@@ -1,10 +1,10 @@
 import React from "react";
 
-import {
-    Container,
-    Row,
-    Col
-} from 'reactstrap';
+// import {
+//     Container,
+//     Row,
+//     Col
+// } from 'reactstrap';
 import Carousel from 'react-bootstrap/Carousel';
 
 function Gallery() {

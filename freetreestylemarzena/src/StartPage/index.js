@@ -15,7 +15,7 @@ function StartPage() {
 
     return (
         <div>
-<div className="bg-image"></div>
+            <div className="bg-image"></div>
             <Container fluid={true} className="mainpage">
 
 
@@ -23,13 +23,13 @@ function StartPage() {
                     <Col>
                         <aside className="filter-aside">
                             <h3 className="mb-3 mt-4">Choose a furniture</h3>
-                            <Link to="/furniture1"><img src={require('../images/button1.png')}/></Link>
+                            <Link to="/furniture1"><img src={require('../images/button1.png')} alt="button1" /></Link>
                             <br />
                             <br />
-                            <Link to="/furniture2"><img src={require('../images/button2.png')}/></Link>
+                            <Link to="/furniture2"><img src={require('../images/button2.png')} alt="button2" /></Link>
                             <br />
                             <br />
-                            <Link to="/furniture3"><img src={require('../images/button3.png')}/></Link>
+                            <Link to="/furniture3"><img src={require('../images/button3.png')} alt="button3" /></Link>
                             <br />
                         </aside>
                     </Col>
@@ -38,13 +38,14 @@ function StartPage() {
                             <Row  >
                                 <Col>
 
-                                    <p>My design adventure began together with my family's life.
+                                    <p> My design adventure began together with my family's life.
                                         I begun thinking about what things we need in our household
                                         and suddenly I realized that I can do many tings on my own.
                                         I took the first step, I fell in love in woodworking, first
                                         I always remember that smell of wood in my ouncle's workshop.
                                         First renovation objects were quite simple, decoupage
-                                        was the important part of the whole introductory process.</p>
+                                        was the important part of the whole introductory process.
+                                        </p>
                                 </Col>
 
                                 <Col>
@@ -54,7 +55,7 @@ function StartPage() {
                                         I could experiment with different techniques such as epoxy, and
                                         finaly after two and a halv years carpentry education I was able
                                         to begin realise my dreams!
-                                         </p>
+                                        </p>
                                 </Col>
                             </Row>
                         </Row>
@@ -71,12 +72,12 @@ function StartPage() {
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/leaf.jpg')} alt="CardTvBank" />
-                                <CardBody className = "bg-transparent card text-center">
+                                <CardImg top width="100%" src={require('../images/leaf.jpg')} alt="Card Leaf" />
+                                <CardBody className="bg-transparent card text-center">
                                     <CardTitle>Inspiration</CardTitle>
                                     <CardSubtitle>Our Ideas</CardSubtitle>
                                     <CardText>
-                                        
+
                                     </CardText>
                                     <Button>Check out!</Button>
                                 </CardBody>
@@ -85,11 +86,11 @@ function StartPage() {
 
                         <Col >
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/technology.jpg')} alt="Card image cap" />
-                                <CardBody className = "bg-transparent card text-center">
+                                <CardImg top width="100%" src={require('../images/technology.jpg')} alt="Card Technology" />
+                                <CardBody className="bg-transparent card text-center">
                                     <CardTitle>Technology</CardTitle>
                                     <CardSubtitle>Workshop and team</CardSubtitle>
-                                    <CardText> 
+                                    <CardText>
                                     </CardText>
                                     <Button>Check out!</Button>
                                 </CardBody>
@@ -98,12 +99,12 @@ function StartPage() {
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/mebel6.png')} alt="Card image cap" />
-                                <CardBody className = "bg-transparent card text-center">
+                                <CardImg top width="100%" src={require('../images/mebel6.png')} alt="Card Furniture" />
+                                <CardBody className="bg-transparent card text-center">
                                     <CardTitle>Our policy</CardTitle>
                                     <CardSubtitle>know how</CardSubtitle>
                                     <CardText>
-                                        </CardText>
+                                    </CardText>
                                     <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
@@ -111,12 +112,12 @@ function StartPage() {
                         <Col>
 
                             <Card className="bg-transparent">
-                                <CardImg top width="100%" src={require('../images/crowd.jpg')} alt="Card image cap" />
-                                <CardBody className = "bg-transparent card text-center">
+                                <CardImg top width="100%" src={require('../images/crowd.jpg')} alt="Card Customers" />
+                                <CardBody className="bg-transparent card text-center">
                                     <CardTitle>Customers</CardTitle>
                                     <CardSubtitle>design and order</CardSubtitle>
                                     <CardText>
-                                        </CardText>
+                                    </CardText>
                                     <Button>Check out!</Button>
                                 </CardBody>
                             </Card>
@@ -124,7 +125,7 @@ function StartPage() {
                     </Row>
                 </Row>
             </Container>
-            
+
         </div>
     );
 }

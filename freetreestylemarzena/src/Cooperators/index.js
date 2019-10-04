@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class Coopoerators extends Component {
+class Cooperators extends Component {
     render (){
         console.log("hej dupo");
         return (
@@ -18,4 +18,4 @@ class Coopoerators extends Component {
     }
 }
 
-export default Coopoerators;
+export default Cooperators;

@@ -8,6 +8,8 @@ import Cooperators from '../Cooperators/index';
 import OrderFurniture from '../OrderFurniture/index';
 import ShoppingCart from '../ShoppingCart/index';
 import Footer from '../Footer/index';
+import MarzenaPage from '../MarzenaPage/index';
+import PaulPage from '../PaulPage/index';
 import MissingPage from '../MissingPage';
 
  function Template () {
@@ -22,6 +24,8 @@ import MissingPage from '../MissingPage';
                         <Route path="/cooperators" component={Cooperators} />
                         <Route path="/orderfurniture" component={OrderFurniture} />
                         <Route path="/shoppingcart" component={ShoppingCart} />
+                        <Route path="/marzenapage" component={MarzenaPage} />
+                        <Route path="/paulpage" component={PaulPage} />
                         <Route component={MissingPage} />
 
                     </Switch>

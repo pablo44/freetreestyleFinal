@@ -13,7 +13,8 @@ import {
     DropdownMenu,
     DropdownItem
 } from "reactstrap";
-import Cooperators from "../Cooperators";
+// import { Link } from 'react-router-dom';
+
 
 
 class NavbarApp extends Component {
@@ -34,7 +35,7 @@ class NavbarApp extends Component {
         return (
             <header>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/"><img src={require("../images/logomarsena.png")} alt="logomarseny"/></NavbarBrand>
+                    <NavbarBrand href="/"><img src={require("../images/logomarsena.png")} alt="logomarseny" /></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -50,10 +51,12 @@ class NavbarApp extends Component {
                     </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Marzena
-                      </DropdownItem>
+                                        
+                                        <NavLink to="/marzenapage">Marzena</NavLink>
+
+                                    </DropdownItem>
                                     <DropdownItem>
-                                        Paul
+                                    <NavLink to="/paulpage">Paul</NavLink>
                       </DropdownItem>
                                     <DropdownItem divider />
                                     <DropdownItem>

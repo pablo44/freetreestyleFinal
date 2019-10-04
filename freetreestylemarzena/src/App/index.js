@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
 import '../avoidFOUC'
-import reactDom from 'react-dom'
+// import reactDom from 'react-dom'
 import render from './template'
 import './style.scss'
 import '../www/css/style.css'
