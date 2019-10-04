@@ -21,8 +21,8 @@ function Gallery() {
            
           />
           <Carousel.Caption>
-            <h3>Bar</h3>
-            <p>Organic-style modern bar</p>
+            <h3>Tree Bar</h3>
+            <p> The modern bar in organic-style</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,8 +34,8 @@ function Gallery() {
           />
       
           <Carousel.Caption>
-            <h3>chair</h3>
-            <p>oak chair in natural oil coate</p>
+            <h3>Light chair "woody"</h3>
+            <p>The oak chair in natural oil coate</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -47,8 +47,8 @@ function Gallery() {
           />
       
           <Carousel.Caption>
-            <h3>chair</h3>
-            <p>oak chair in natural oil coate</p>
+            <h3>Light chair "woody"</h3>
+            <p>The oak chair in natural oil coate</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -59,8 +59,8 @@ function Gallery() {
             // style={{ height:680 }}
           />
           <Carousel.Caption>
-            <h3>coffe table</h3>
-            <p>varnished and stained coffe table</p>
+            <h3>The coffe table</h3>
+            <p>Color varnished and stained coffe table</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -71,8 +71,8 @@ function Gallery() {
             // style={{ height:680 }}
           />
           <Carousel.Caption>
-            <h3>coffe table</h3>
-            <p>varnished and stained coffe table</p>
+            <h3>The coffe table</h3>
+            <p>Color varnished and stained coffe table</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -83,8 +83,8 @@ function Gallery() {
             // style={{ height:680 }}
           />
           <Carousel.Caption>
-            <h3>chees coffe table</h3>
-            <p>chees inspired coffe table</p>
+            <h3>The chees coffe table</h3>
+            <p>Chees inspired coffe table</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -95,8 +95,8 @@ function Gallery() {
             // style={{ height:680 }}
           />
           <Carousel.Caption>
-            <h3>tv bench</h3>
-            <p>tv bench witch walnuts filling</p>
+            <h3>The tv bench "1TV Tree"</h3>
+            <p>Tv bench with a walnuts filling</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -107,8 +107,8 @@ function Gallery() {
             // style={{ height:680}}
           />
           <Carousel.Caption>
-            <h3>tv bench</h3>
-            <p>tv bench witch gren oak filling</p>
+            <h3>The tv bench</h3>
+            <p>"1TVT" with a green oak filling</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
