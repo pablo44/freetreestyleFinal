@@ -79,7 +79,13 @@ function StartPage() {
                                     <CardText>
 
                                     </CardText>
-                                    <Button>Check out!</Button>
+                                    <Link to="/inspiration">
+                                    <Button>
+                                    
+                                        Check out!
+
+                                    </Button>
+                                    </Link>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -92,7 +98,9 @@ function StartPage() {
                                     <CardSubtitle>Workshop and team</CardSubtitle>
                                     <CardText>
                                     </CardText>
+                                    <Link to="/technology">
                                     <Button>Check out!</Button>
+                                    </Link>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -105,7 +113,9 @@ function StartPage() {
                                     <CardSubtitle>know how</CardSubtitle>
                                     <CardText>
                                     </CardText>
+                                    <Link to="/policy">
                                     <Button>Check out!</Button>
+                                    </Link>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -118,7 +128,9 @@ function StartPage() {
                                     <CardSubtitle>design and order</CardSubtitle>
                                     <CardText>
                                     </CardText>
+                                    <Link to="/customers">
                                     <Button>Check out!</Button>
+                                    </Link>
                                 </CardBody>
                             </Card>
                         </Col>
